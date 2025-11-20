@@ -1,4 +1,4 @@
-Animal Inheritance
+#Animal Inheritance
 class Animal:
     def speak(self, speak):
         print("their sounds")
@@ -16,7 +16,7 @@ Cat().speak()
 
 
 
-Vehicle Class
+#Vehicle Class
 class Vehicle:
     def __init__(self, brand, fuel):
         self.brand = brand
