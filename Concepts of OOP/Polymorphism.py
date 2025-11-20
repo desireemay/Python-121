@@ -1,4 +1,4 @@
-Printers
+#Printers
 class InkPrinter:
     def print_document(self):
         return "Printing using ink..."
@@ -12,7 +12,7 @@ for p in printers:
     print(p.print_document())
 
 
-Duck Typing
+#Duck Typing
 def make_it_speak(obj):
     obj.speak()
 
